@@ -153,6 +153,7 @@ a:focus {
 .food-figure img {
 	border-radius: 3rem;
 	width: 100%;
+	box-shadow: 5px 5px rgb(248, 231, 231);
 }
 
 .food-figure figcaption {
@@ -183,7 +184,7 @@ a:focus {
 
 
 	.food-figure figcaption {
-		margin-top: .5rem;
+		margin: 1rem;
 	}
 
 	.food-figure {
@@ -205,6 +206,7 @@ a:focus {
 
 .activities-figure img {
 	border-radius: 3rem;
+	box-shadow: 5px 5px rgb(248, 231, 231);
 }
 
 .activities-caption {
