@@ -69,12 +69,12 @@ a:focus {
 
 .site-wrapper {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column; /* --------- learned this code from chatgpt  -------------*/
 	min-height: 100vh;
 }
-
+							/* ---------- could not get my footer to stick to the bottom otherwise -------------=( */
 .main-wrapper {
-	flex: 1;
+	flex: 1;				/* --------- learned this code from chatgpt  -------------*/
 }
 
 .nav-menu ul {
