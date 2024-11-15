@@ -157,6 +157,7 @@ a:focus {
 .food-guide {
 	margin: 0 auto;
 	width: 75%;
+	text-align: center;
 }
 
 .food-main {
@@ -172,8 +173,7 @@ a:focus {
 }
 
 .food-figure img {
-	border-radius: 3rem;
-	width: 100%;
+	border-radius: 1rem;
 	box-shadow: 5px 5px rgb(255, 255, 255);
 
 }
@@ -181,7 +181,8 @@ a:focus {
 .food-figure figcaption {
 	background-color: rgb(235, 235, 228);
 	padding: .5rem 2rem;
-	border-radius: 3rem;
+	border-radius: 1rem;
+	align-self: center;
 }
 
 @media (min-width: 50em) {
@@ -197,6 +198,7 @@ a:focus {
 	.food-article {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 	}
 
 	.food-figure img {
