@@ -39,6 +39,10 @@ p {
 	margin: 1.5em 0;
 }
 
+a {
+	padding: .5rem;
+}
+
 /* --- LINKS ---------------------------------------------------------*/
 
 a,
@@ -51,9 +55,9 @@ a:hover,
 a:focus,
 a:active {
 	background-color: white;
-	padding: .5rem;
 	border-radius: .5rem;
 	background-color: rgb(211, 211, 211);
+
 }
 
 a:focus {
