@@ -258,6 +258,10 @@ a:focus {
 		flex-direction: row-reverse;
 	}
 
+	.activities-caption {
+		max-width: 85%;
+	}
+
 }
 
 /* --- CREDITS ----------------------------------------------------------*/
