@@ -107,10 +107,10 @@ a:focus {
 	flex-wrap: wrap;
 }
 
- .nav-title {
+.nav-title {
 	background-color: rgb(255, 255, 255);
 	border-bottom: solid;
- }
+}
 
 .nav-menu a {
 	font-weight: 500;
@@ -180,8 +180,7 @@ a:focus {
 /* --- FOOD GUIDE ----------------------------------------------------------*/
 
 .food-guide {
-	margin: 0 auto;
-	width: 75%;
+	margin: 1rem auto;
 	text-align: center;
 }
 
@@ -192,7 +191,7 @@ a:focus {
 
 
 .food-figure {
-	width: 70%;
+	max-width: 90%;
 	height: auto;
 
 }
@@ -223,11 +222,12 @@ a:focus {
 	.food-article {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 	}
 
 	.food-figure img {
-		max-width: 40%;
+		max-width: 90%;
+        height: 30rem;
+        object-fit: cover;
 	
 	}
 
@@ -237,7 +237,10 @@ a:focus {
 	}
 
 	.food-figure {
-		display: flex;
+		display: grid;
+        grid-template-columns: 40% 60%;
+        justify-items: center;
+        align-items: center;
 	}
 
 }
@@ -255,7 +258,7 @@ a:focus {
 
 .activities-figure img {
 	border-radius: 3rem;
-	box-shadow: 5px 5px rgb(248, 231, 231);
+    box-shadow: 5px 5px rgb(248, 231, 231);
 }
 
 .activities-caption {
@@ -277,14 +280,23 @@ a:focus {
 		margin: 0 auto;
 		width: 100%;
 	}
+	.activities-figure img {
+	border-radius: 3rem;
+    box-shadow: 5px 5px rgb(248, 231, 231);
+    max-width: 50%;
+    max-height: 20rem;
+    margin: 0 auto;
+	}
 
-	.activities-article {
+	.activities-figure {
 		display: flex;
-		flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        justify-content: center;
 	}
 
 	.activities-caption {
-		max-width: 85%;
+		max-width: 40%;
+        height: auto;
 	}
 
 }
@@ -300,7 +312,8 @@ a:focus {
 }
 
 .credits-section img {
-	border-radius: 1rem;
+	padding: 1rem;
+    border-radius: 2rem;
 }
 
 
@@ -310,7 +323,7 @@ a:focus {
 	border-bottom: solid;
 }
 
-.credits-article {
+/* .credits-article {
 	text-align: center;
 }
 
@@ -318,6 +331,44 @@ a:focus {
 	background-color: rgb(235, 235, 228);
 	padding: .5rem 2rem;
 	border-radius: 3rem;
+} */
+
+.form {
+	border: solid;
+    padding: 1rem;
+    text-align: center;
+	width: 100%;
+}
+
+.form h3 {
+	margin: 3rem 0rem;
+}
+
+
+.form label {
+	max-width: 15rem;
+	vertical-align: top;
+}
+
+.form input {
+	max-width: 15rem;
+}
+
+.form-button {
+	background-color: rgb(121, 122, 160);
+    padding: 1rem;
+    border-radius: 1rem;
+	box-shadow: 3px 3px rgb(0, 0, 0)
+}
+
+.table {
+	margin: 2rem auto;
+}
+
+td,
+th {
+	border: 2px solid black;
+	padding: .5rem;
 }
 
 
@@ -327,7 +378,17 @@ a:focus {
 		justify-content: center;
 	}
 
-	.credits-article {
+	/* .table {
+		margin: 2rem auto;
+	}
+
+	td,
+	th {
+		border: 2px solid black;
+		padding: 1rem;
+	} */
+
+	/* .credits-article {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
@@ -357,6 +418,6 @@ a:focus {
 	.bbc-info-grid {
 		grid-column: 2 / 3;
 		grid-row: 3 / 4;
-	}
+	} */
 
 }
