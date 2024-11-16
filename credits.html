@@ -50,7 +50,7 @@
 
             <article class="credits-article">
 
-                <h2>Home page</h2>
+                <!-- <h2>Home page</h2>
                 <p>Photo - <cite><a href="https://pexels.com">Pexels</a></cite></p>
 
                 <p class="expatica-grid">Information - <cite><a href="https://www.expatica.com/ch/">Expatica</a></cite></p>
@@ -66,9 +66,55 @@
                 <p class="act-info-grid">Information - <cite><a href="https://www.myswitzerland.com/en-ca/       experiences/summer-autumn/hiking/">Hiking</a></cite>
                 <cite><a href="https://www.myswitzerland.com/en-ca/experiences/summer-autumn/adventure-			     sports-summer/">Biking</a></cite>
                 <cite><a href="https://www.myswitzerland.com/en-ca/experiences/summer-autumn/adventure-sports-			summer/water-sports/">Kayaking</a></cite>
-                </p>
+                </p> -->
+
+                <table class="table">
+                    <tr>
+                        <th>Home page</th>
+                        <td>Photos - <cite><a href="https://www.bbcgoodfood.com/travel/europe/top-10-foods-try-switzerland">Bbcgoodfood</a></cite></td>
+                        <td>Information - <cite><a href="https://www.bbcgoodfood.com/travel/europe/top-10-foods-try-switzerland">Bbcgoodfood</a></cite></td>
+                    </tr>
+
+                    <tr>
+                        <th>Food guide</th>
+                        <td>Photos - <cite><a href="https://www.bbcgoodfood.com/travel/europe/top-10-foods-try-switzerland">Bbcgoodfood</a></cite></td>
+                        <td>Information - <cite><a href="https://www.bbcgoodfood.com/travel/europe/top-10-foods-try-switzerland">Bbcgoodfood</a></cite></td>
+                    </tr>
+
+                    <tr>
+                        <th>Activities</th>
+                        <td>Photos - <cite><a href="https://pexels.com">Pexels</a></cite></td>
+                        <td>Information - <cite><a href="https://www.myswitzerland.com/en-ca/experiences/summer-autumn/hiking/">Hiking</a></cite>
+                            <cite><a href="https://www.myswitzerland.com/en-ca/experiences/summer-autumn/adventure-sports-summer/">Biking</a></cite>
+                            <cite><a href="https://www.myswitzerland.com/en-ca/experiences/summer-autumn/adventure-sports-summer/water-sports/">Kayaking</a></cite></td>
+                    </tr>
+                </table>
 
             </article>
+
+            <div class="form">
+                <h3>Tell me about your journey here!</h3>
+                <form action="/my-handling-form-page" method="post">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </p>
+                    
+                    <p>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email" />
+                    </p>
+                    
+                    <p>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </p>
+
+                    <p>
+                        <button  class="form-button" type="button">Submit</button>
+                      </p>
+                </form>
+            </div>
 
         </main>
 
